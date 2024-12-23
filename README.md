@@ -18,10 +18,3 @@ Antes de começar, certifique-se de ter o seguinte instalado no seu ambiente:
 - Um navegador (Chrome, Edge, ou Firefox)
 
 ---
-
-## **Configuração do Ambiente**
-
-1. **Clone o Repositório**
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DO_REPOSITORIO>
