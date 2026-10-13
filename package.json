@@ -1,0 +1,15 @@
+{
+  "name": "advantage-demo-qa-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA portfolio - Cypress web E2E and API automation for Advantage Online Shopping",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\"",
+    "test:web": "cypress run --spec \"cypress/e2e/web/**/*.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "16.1.1"
+  }
+}
