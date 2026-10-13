@@ -1,31 +1,37 @@
-# Cypress E2E & API Testing — Advantage Online Shopping
+# Automação E2E e API com Cypress — Advantage Online Shopping
 
-QA portfolio project demonstrating **web end-to-end testing** and **REST API validation** with Cypress against the Advantage Online Shopping demo application.
+Projeto de portfólio de QA demonstrando **testes end-to-end Web** e **validação de API REST** com Cypress na aplicação pública Advantage Online Shopping.
 
-## What this project demonstrates
+## 🎯 Objetivo
 
-- Web E2E automation with Cypress
-- Product search and shopping cart validation
-- REST API testing with `cy.request()`
-- HTTP status and response-body assertions
-- Reusable Cypress custom commands
-- Separation between web and API test suites
+Demonstrar conhecimentos práticos de automação de testes com Cypress, cobrindo fluxo de usuário na interface Web e validações de API no mesmo projeto.
 
-## Automated scenarios
+## 🧪 O que este projeto demonstra
+
+- Automação E2E Web com Cypress
+- Busca de produtos e validação de carrinho
+- Testes de API REST com `cy.request()`
+- Validação de status HTTP e conteúdo da resposta
+- Uso de custom commands reutilizáveis
+- Separação entre testes Web e API
+
+## ✅ Cenários automatizados
 
 ### Web
-- Search for a product
-- Open the product details
-- Add the product to the cart
-- Validate the expected product in the cart
+
+- Buscar um produto
+- Abrir os detalhes do produto
+- Adicionar o produto ao carrinho
+- Validar o produto esperado no carrinho
 
 ### API
-- Search a product through the catalog API
-- Validate HTTP status
-- Validate returned category
-- Validate product name, ID and price
 
-## Project structure
+- Pesquisar produto através da API de catálogo
+- Validar status HTTP
+- Validar categoria retornada
+- Validar nome, ID e preço do produto
+
+## 📁 Estrutura
 
 ```text
 .
@@ -44,40 +50,42 @@ QA portfolio project demonstrating **web end-to-end testing** and **REST API val
 └── README.md
 ```
 
-## Install
+## ⚙️ Instalação
 
 ```bash
 npm install
 ```
 
-## Run all tests
+## ▶️ Executar todos os testes
 
 ```bash
 npm test
 ```
 
-## Run Cypress interactively
+## 🖥️ Abrir o Cypress interativamente
 
 ```bash
 npm run cy:open
 ```
 
-## Run only API tests
+## 🔌 Executar apenas os testes de API
 
 ```bash
 npm run test:api
 ```
 
-## Run only web E2E tests
+## 🌐 Executar apenas os testes Web E2E
 
 ```bash
 npm run test:web
 ```
 
-## QA skills highlighted
+## 🛠️ Tecnologias e competências
 
 `Cypress` · `E2E Testing` · `API Testing` · `REST` · `JavaScript` · `Custom Commands` · `Assertions`
 
-## Portfolio note
+---
 
-This repository is intended as a practical QA automation portfolio project using a public demo application.
+### English summary
+
+QA portfolio project demonstrating web E2E automation and REST API testing with Cypress using a public demo application.
